@@ -1,0 +1,110 @@
+.card {
+    width: 300px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 0px;
+    height: 500px;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.ul-cards li {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card-image img {
+    max-width: 250px;
+    max-height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-upward {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+.icon-upward:hover span{
+    animation: up .4s linear backwards;
+    animation-delay: .2s;
+}
+.icon-upward i {
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    height: 100%;
+}
+
+.card-title {
+    font-size: 17px !important;
+}
+.card-content {
+    width: 100%;
+    min-height: 180px;
+    padding: 10px 10px 0px!important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#buy {
+    display: flex;
+    align-items: center;
+}
+
+#buy a,
+#add-icon-carrinho{
+    color: #000000;
+    font-size: 16px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.card-action {
+    display: flex;
+    max-height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px !important;
+}
+#add-icon-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131313;
+    padding: 15px;
+    margin-right: 0px !important;
+    transition: all .5s;
+}
+
+#add-icon-carrinho i {
+    color: #019201;
+    font-size: 24px;
+    margin-left: 0px;
+}
+
+#add-icon-carrinho:hover {
+    background-color: #81f381;
+}
+
+
+@keyframes up {
+    0% {
+        transform: translateY(40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

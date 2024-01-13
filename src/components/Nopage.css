@@ -1,0 +1,16 @@
+.Container {
+    top: 0;
+    left: 0;
+    transform: translate(50%,50%);
+    position: absolute;    
+}
+#goCatalago {
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #1063b1;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 450;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
