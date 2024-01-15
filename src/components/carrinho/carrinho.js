@@ -8,7 +8,7 @@ function Carrinho({carrinho}) {
                         <li key={item.id}>
                             <div class="card">
                                 <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src={item.image}/>
+                                    <img class="activator" src={item.image} alt="imagem"/>
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title grey-text text-darken-4">{item.title}<i class="material-icons right"></i></span>
@@ -22,7 +22,7 @@ function Carrinho({carrinho}) {
                                     <p>{item.description}</p>
                                 </div>
                                 <div className="card-action">
-                                    <span id="buy"><a>Comprar</a></span>
+                                    <span id="buy"><a href="#">Comprar</a></span>
                                 </div>
                             </div>
                         </li>

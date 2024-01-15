@@ -17,7 +17,7 @@ export function Catalago() {
                         <li key={item.id}>
                             <div class="card">
                                 <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src={item.image}/>
+                                    <img class="activator" src={item.image} alt="image"/>
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title activator grey-text text-darken-4">{item.title}<i class="material-icons right">more_vert</i></span>
